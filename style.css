@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+    background-color: lightblue;
+    max-width: 500px;
+    margin: auto;
+    
+    
+}
+
+p{
+    text-align: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.marker{
+    width: 100px;
+    height: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.one, .two, .three{
+    width: 200px;
+    height: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.one {
+    background: linear-gradient(90deg,rgb(85, 0, 0), rgb(230, 0, 1), rgb(110, 0, 0) );
+    box-shadow: 0px 0px 10px 5px red ;
+}
+
+
+.two {
+    background: linear-gradient(90deg,rgb(0, 85, 0), rgb(0, 230, 1), rgb(0, 110, 0) );
+    box-shadow: 0px 0px 10px 5px green ;
+}
+
+.three {
+    background: linear-gradient(90deg,rgb(0, 0, 85), rgb(10, 1, 230), rgb(0, 0, 110) );
+    box-shadow: 0px 0px 10px 5px blue ;
+}
